@@ -1,0 +1,19 @@
+//8/19/14.
+include ../template
+script(src='javascript/anim.jq.js')
+body
+    include top_menu
+    p#welcome-text
+        b Hello
+        | , and Welcome to the Freak show!
+        br
+        | click
+        a(href='/browse')
+            i  here
+        |  to join us and browse for other links
+        br
+        | or you can simply click on our friendly
+        b  'Browse'
+        |  button up there!
+        br
+        b.font_45 Have fun!

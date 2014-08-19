@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Open+Sans+Condensed:300);
+
+body{ padding:0; margin: 0; }
+
+html{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgb(245,245,243);
+}
+
+div.top-wrap{
+    width: 100%;
+    text-align: center;
+}
+
+div.mid-wrap{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+
+#welcome-text{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    font-size: 35px;
+}
+
+#welcome-text a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+
+/* TOP TEMPLATE */
+.top-wrap h1{
+    background-color: rgb(235,235,232);
+    margin: 0;
+}
+
+div.menu{
+    border-bottom: 1px black solid;
+}
+
+.menu b{
+    padding: 0px 25px 0px 25px;
+    margin: 0.1%;
+    border: 1px black solid;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+/* BROWSE LIST */
+table.list{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+table.list tr :nth-child(even){
+    background-color: rgb(235,235,232);
+}
+
+table.list tr :nth-child(odd){
+    background-color: rgb(229,229,225);
+}
+
+
+table.list tr.caption{
+    font-family: 'Shadows Into Light', cursive;;
+}
+
+/* GENERIC */
+.font_45{ font-size: 45px }

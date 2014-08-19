@@ -1,0 +1,15 @@
+table.list
+    tbody
+    caption Browse for Tutorials
+    tr.caption
+        td Name
+        td Level
+        td Author
+        td Technology
+    for row in db
+        tr
+            td
+                a(href='#')= row.name
+            td= row.level
+            td= row.author
+            td= row.tech
