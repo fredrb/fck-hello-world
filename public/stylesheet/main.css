@@ -69,7 +69,21 @@ table.list tr :nth-child(odd){
 
 
 table.list tr.caption{
-    font-family: 'Shadows Into Light', cursive;;
+    font-family: 'Shadows Into Light', cursive;
+    border-bottom: 1px black solid;
+}
+
+td.caption{
+    border: 1px black solid;
+    border-radius: 2px;
+}
+
+table.list tr.caption :nth-child(even){
+    background-color: rgb(215,219,222);
+}
+
+table.list tr.caption :nth-child(odd) {
+    background-color: rgb(219, 221, 221);
 }
 
 /* GENERIC */
