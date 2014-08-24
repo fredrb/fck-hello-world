@@ -1,10 +1,14 @@
 {
-   "name": "fck-hello-world",
-   "version": "0.0.1",
-   "dependencies":{
-      "express" : "4.8.x",
-      "morgan"  : "~1.2.2",
-      "jade"    : "~1.5.x",
-      "body-parser" : "~1.0.0"
-   }
+  "name": "fck-hello-world",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.8.x",
+    "morgan": "~1.2.2",
+    "jade": "~1.5.x",
+    "body-parser": "~1.0.0"
+  },
+  "devDependencies": {
+    "should": "^4.0.4",
+    "mocha": "1.2.x"
+  }
 }
