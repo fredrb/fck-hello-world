@@ -33,21 +33,21 @@ compl.push(
 
 var generate = exports.generate = function(chance){
    var string = "";
-   var random = (Math.round((Math.random()) * 10));
+   var random = (Math.round((Math.random()) * 20));
    while(random > prefix.length - 1){
-      random = (Math.round((Math.random()) * 10));
+      random = (Math.round((Math.random()) * 20));
    }
    string = string + prefix[random];
 
    while(random > activity.length - 1){
-      random = (Math.round((Math.random()) * 10));
+      random = (Math.round((Math.random()) * 20));
    }
    string = string + " " + activity[random];
 
-   random = (Math.round((Math.random()) * 10));
+   random = (Math.round((Math.random()) * 20));
    if(random > chance){
       while(random > compl.length - 1){
-         random = (Math.round((Math.random()) * 10));
+         random = (Math.round((Math.random()) * 20));
       }
       string = string + " " + compl[random];
    }
